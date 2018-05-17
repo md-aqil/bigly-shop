@@ -845,6 +845,7 @@ Main Components
 }
 .cd-cart-trigger {
 	background: #fff;
+	border-radius: 3px;
 }
 .cd-cart-trigger,
 .cd-cart {
@@ -1814,4 +1815,7 @@ img.profile {
 	     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); 
 	     margin-bottom: 25px;
 
+}
+.social-top li:hover i {
+	color: var(--theme-color);
 }
