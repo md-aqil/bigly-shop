@@ -802,7 +802,6 @@ div.shadow{
 
 .cd-add-to-cart {
   
-  text-transform: uppercase;
   color: #ffffff;
  
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -1805,4 +1804,14 @@ img.profile {
 }
 .footer-status .btn {
 	box-shadow: none;
+}
+.top-add {
+	background: #fff;
+	padding: 30px 10px;
+	border-radius: 3px;
+	text-align: center;
+	margin-top: 17px;
+	     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); 
+	     margin-bottom: 25px;
+
 }
