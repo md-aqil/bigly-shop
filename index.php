@@ -1,70 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300, 400,600,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="aqil-icon/style.css">
-	<link rel="stylesheet" href="css/lightslider.min.css">
+<?php include 'include/header.php'; ?>
 
-	<link rel="stylesheet" href="css/main.css">
-</head>
 <body style="background: #fff;">
-	<div class="stirpped-navbar">
-				<nav class="navbar navbar-default">
-					<div class="container">
-						
-		
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div>
-							<ul class="nav navbar-nav">
-								<li><a href="#"><i class="aqil-icon-close-envelope theme-color"></i> aqilali381@gmail.com</a></li>
-								<li><a href="#"><i class="aqil-icon-tele-phone-f theme-color"></i> 7210562014</a></li>
-							
-							</ul>
 
-							<ul class="nav navbar-nav navbar-right social-top">
-								<li><a href="#"><i class="aqil-icon-facebook"></i></a></li>
+<?php include 'include/navbar.php'; ?>
+<?php include 'include/cart.php'; ?>
 
-								<li><a href="#"><i class="aqil-icon-twitter"></i></a></li>
-								<li><a href="#"><i class="aqil-icon-google-plus-logo"></i></a></li>
-								<li><a href="#"><i class="aqil-icon-linkedin"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-	</div>
-
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-sample" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Brand</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="navbar-sample">
-				<ul class="nav navbar-nav">
-					<li class=""><a href="#">Home</a></li>
-					<li><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li> 
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					
-					<li></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
 
 <div class="container-fluid">
+
+
 	<div class="row">
 		<div class="slider">
 		  <!-- slides -->
@@ -152,35 +97,6 @@
 	</div>
 </div>
 
-<div class="cd-cart-container empty">
-	<a href="#0" class="cd-cart-trigger">
-		Cart
-		<ul class="count"> <!-- cart items count -->
-			<li>0</li>
-			<li>0</li>
-		</ul> <!-- .count -->
-	</a>
-
-	<div class="cd-cart">
-		<div class="wrapper">
-			<header>
-				<h2>Cart</h2>
-				<span class="undo">Item removed. <a href="#0">Undo</a></span>
-			</header>
-			
-			<div class="body">
-				<ul>
-					<!-- products added to the cart will be inserted here using JavaScript -->
-				</ul>
-			</div>
-
-			<footer>
-				<a href="#0" class="checkout btn">Checkout - $<span>0</span></a>
-			</footer>
-		</div>
-	</div> <!-- .cd-cart -->
-</div> <!-- cd-cart-container -->
-	
 	<div class="container spacethis">
 		<div class="row">
 			<div class="col-md-4">
@@ -191,6 +107,7 @@
 					<h4 class="text-right"><a href="" class="cd-add-to-cart btn-flat" data-price="25.99">Visit Store <i class="aqil-icon-arrow-right"></i></a>  </h4>
 				</div>
 			</div>
+			
 			<div class="col-md-4">
 				<div class="ctbox">
 					<h3 class="fw300">Office</h3>
@@ -231,7 +148,7 @@
 			                </div>
 			                 <div class="content-overlay"></div>
 			                <div class="content-details fadeIn-bottom">
-			                       <h3><button class="btn btn-theme btn-round cd-add-to-cart" data-price="25.99">Add To Cart</button></h3>
+			                       <h3><button class="btn btn-theme btn-round cd-add-to-cart" data-price="25.99"><i class="aqil-icon-shopping-cart"></i>  Add To Cart</button></h3>
 			                       <p>
 			                       <a href="" class="vdetails">Vew Details</a>
 			                       </p>
@@ -253,7 +170,7 @@
 			                </div>
 			                 <div class="content-overlay"></div>
 			                <div class="content-details fadeIn-bottom">
-			                       <h3><button class="btn btn-theme btn-round cd-add-to-cart" data-price="25.99">Add To Cart</button></h3>
+			                       <h3><button class="btn btn-theme btn-round cd-add-to-cart" data-price="25.99"><i class="aqil-icon-shopping-cart"></i>  Add To Cart</button></h3>
 			                       <p>
 			                       <a href="" class="vdetails">Vew Details</a>
 			                       </p>
@@ -275,7 +192,7 @@
 			                </div>
 			                 <div class="content-overlay"></div>
 			                <div class="content-details fadeIn-bottom">
-			                       <h3><button class="btn btn-theme btn-round cd-add-to-cart" data-price="25.99">Add To Cart</button></h3>
+			                       <h3><button class="btn btn-theme btn-round cd-add-to-cart" data-price="25.99"><i class="aqil-icon-shopping-cart"></i>  Add To Cart</button></h3>
 			                       <p>
 			                       <a href="" class="vdetails">Vew Details</a>
 			                       </p>
@@ -297,7 +214,7 @@
 			                </div>
 			                 <div class="content-overlay"></div>
 			                <div class="content-details fadeIn-bottom">
-			                       <h3><button class="btn btn-theme btn-round cd-add-to-cart" data-price="25.99">Add To Cart</button></h3>
+			                       <h3><button class="btn btn-theme btn-round cd-add-to-cart" data-price="25.99"><i class="aqil-icon-shopping-cart"></i> Add To Cart</button></h3>
 			                       <p>
 			                       <a href="" class="vdetails">Vew Details</a>
 			                       </p>
@@ -374,111 +291,4 @@
 	</ul>
 </div>
 
-
-<script src="js/jquery.min.js"></script>
-<script src="js/lightslider.min.js"></script>
-
-<!-- <script src="js/main.js"></script> -->
-<script>
-	(function() {
-	  var $slides = document.querySelectorAll('.slide');
-	  var $controls = document.querySelectorAll('.slider__control');
-	  var numOfSlides = $slides.length;
-	  var slidingAT = 1300; // sync this with scss variable
-	  var slidingBlocked = false;
-
-	  [].slice.call($slides).forEach(function($el, index) {
-	    var i = index + 1;
-	    $el.classList.add('slide-' + i);
-	    $el.dataset.slide = i;
-	  });
-
-	  [].slice.call($controls).forEach(function($el) {
-	    $el.addEventListener('click', controlClickHandler);
-	  });
-
-	  function controlClickHandler() {
-	    if (slidingBlocked) return;
-	    slidingBlocked = true;
-
-	    var $control = this;
-	    var isRight = $control.classList.contains('m--right');
-	    var $curActive = document.querySelector('.slide.s--active');
-	    var index = +$curActive.dataset.slide;
-	    (isRight) ? index++ : index--;
-	    if (index < 1) index = numOfSlides;
-	    if (index > numOfSlides) index = 1;
-	    var $newActive = document.querySelector('.slide-' + index);
-
-	    $control.classList.add('a--rotation');
-	    $curActive.classList.remove('s--active', 's--active-prev');
-	    document.querySelector('.slide.s--prev').classList.remove('s--prev');
-	    
-	    $newActive.classList.add('s--active');
-	    if (!isRight) $newActive.classList.add('s--active-prev');
-	    
-
-	    var prevIndex = index - 1;
-	    if (prevIndex < 1) prevIndex = numOfSlides;
-
-	    document.querySelector('.slide-' + prevIndex).classList.add('s--prev');
-
-	    setTimeout(function() {
-	      $control.classList.remove('a--rotation');
-	      slidingBlocked = false;
-	    }, slidingAT*0.75);
-	  };
-	}());
-</script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-    $("#lightSlider2").lightSlider({
-        item: 4,
-        autoWidth: false,
-        slideMove: 1, // slidemove will be 1 if loop is true
-        slideMargin: 10,
- 
-        addClass: '',
-        mode: "slide",
-        useCSS: true,
-        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
-        easing: 'linear', //'for jquery animation',////
- 
-        speed: 400, //ms'
-        auto: false,
-        loop: false,
-        slideEndAnimation: true,
-        pause: 2000,
- 
-        keyPress: false,
-        controls: true,
-        prevHtml: '',
-        nextHtml: '',
- 
-        rtl:false,
-        adaptiveHeight:false,
- 
-        vertical:false,
-        verticalHeight:500,
-        vThumbWidth:100,
- 
-        thumbItem:10,
-        pager: true,
-        gallery: false,
-        galleryMargin: 5,
-        thumbMargin: 5,
-        currentPagerPosition: 'middle',
- 
-        enableTouch:true,
-        enableDrag:true,
-        freeMove:true,
-        swipeThreshold: 40,
- 
-        responsive : [],
- 
-    });
-});
-</script>
-</body>
-</html>
+<?php include 'include/footer.php'; ?>

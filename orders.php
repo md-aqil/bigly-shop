@@ -1,36 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="aqil-icon/style.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+<?php include 'include/header.php'; ?>
 <h1>&nbsp;</h1>
 	
 <div class="container" style="background: #fff;">
 	<div class="row">
-		<aside class="col-md-3 pr0">
-			<div class="sidebox">
-				<img class="img-circle profile" src="img/produc.png" alt="">
-				<h4 class="text-center"><a href="" >Md Aqil</a></h4>
-				<br>
-				
-			<hr>
-			<ul class="side-bar">
-				<li><a href="admin.html">Your Products</a></li>
-				<li><a href="orders.html">Orders</a></li>
-				<li><a href="update-profile.html">Update Profile</a></li>
-			</ul>
-			</div>
-			
-		</aside>
-
-
-
+	<?php include 'include/sidebar.php'; ?>
 
 		<main class="col-md-9 pl0 bl">
 

@@ -1,69 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<?php include 'include/header.php'; ?>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="aqil-icon/style.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-
-	
 <div class="container" style="background: #fff;">
 	<div class="row">
-		<aside class="col-md-3 pr0">
-			<div class="sidebox">
-				<img class="img-circle profile" src="img/produc.png" alt="">
-				<h4 class="text-center"><a href="" >Md Aqil</a></h4>
-				<br>
-				
-			<hr>
-			<ul class="side-bar">
-				<li><a href="admin.html" class="active">Your Products</a></li>
-				<li><a href="orders.html">Orders</a></li>
-				<li><a href="update-profile.html">Update Profile</a></li>
-				<li><a href="address.html">Your Address</a></li>
-			</ul>
-			</div>
-			
-		</aside>
-
-
-
+		
+<?php include 'include/sidebar.php'; ?>
 
 		<main class="col-md-9 pl0">
 
-<div class="cd-cart-container empty">
-	<a href="#0" class="cd-cart-trigger">
-		Cart
-		<ul class="count"> <!-- cart items count -->
-			<li>0</li>
-			<li>0</li>
-		</ul> <!-- .count -->
-	</a>
-
-	<div class="cd-cart">
-		<div class="wrapper">
-			<header>
-				<h2>Cart</h2>
-				<span class="undo">Item removed. <a href="#0">Undo</a></span>
-			</header>
-			
-			<div class="body">
-				<ul>
-					<!-- products added to the cart will be inserted here using JavaScript -->
-				</ul>
-			</div>
-
-			<footer>
-				<a href="#0" class="checkout btn">Checkout - $<span>0</span></a>
-			</footer>
-		</div>
-	</div> <!-- .cd-cart -->
-</div> <!-- cd-cart-container -->
-	
+				
 			<div class="row">
 					<div class="col-md-4">
 						<div class="items content">
